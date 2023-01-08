@@ -1,0 +1,56 @@
+@model MailboxViewModel
+
+@{
+    ViewData["Title"] = "Mailbox Details";
+}
+
+<h2>Mailbox Detail</h2>
+<table class="table tab-content">
+    <tbody>
+        <tr>
+            <th>ID</th>
+            <td>@Model.Id</td>
+        </tr>
+        <tr>
+            <th>UserSending</th>
+            <td>@Model.UserSending</td>
+        </tr>
+        <tr>
+            <th>ToRecipients</th>
+            <td>@Model.ToRecipients</td>
+        </tr>
+    
+        <tr>
+            <th>CCRecipients</th>
+            <td>@Model.CCRecipients</td>
+        </tr>
+
+        <tr>
+            <th>Subject</th>
+            <td>@Model.Subject</td>
+        </tr>
+
+        <tr>
+            <th>Body</th>
+            <td>@Model.Body</td>
+        </tr>
+
+        <tr>
+            <th>Attachment</th>
+            <td>@Model.Attachment</td>
+        </tr>
+
+        <tr>
+            <th>Scheduled</th>
+            <td>@Model.Scheduled</td>
+        </tr>
+
+        <tr>
+            <th>StatusDone</th>
+            <td>@Model.StatusDone</td>
+        </tr>
+
+    </tbody>
+</table>
+
+<a class="btn btn-sm btn-primary" asp-area="" asp-controller="Mailbox" asp-action="List">Back</a>

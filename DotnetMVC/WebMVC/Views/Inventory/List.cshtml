@@ -1,0 +1,38 @@
+@model List<InventoryViewModel>
+@{
+    ViewData["Title"] = "Inventory List";
+}
+
+<h2>Inventory List</h2>
+<a class="btn btn-sm btn-primary" asp-area="" asp-controller="Inventory" asp-action="Add">Create New Inventory</a>
+
+<table class="table table-responsive">
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Specification</th>
+        <th>Quantity</th>
+        <th>On Loan</th>
+        <th>Ready</th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach(var item in Model )
+    {
+        <tr>
+            <td>@item.Id</td>
+            <td>@item.Name</td>
+            <td>@item.Specification</td>
+            <td>@item.Quantity</td>
+            <td>@item.OnLoan</td>
+            <td>@item.Ready</td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-warning">Edit</a>
+                <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-sm btn-success">View</a>
+                <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-danger">Delete</a>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>

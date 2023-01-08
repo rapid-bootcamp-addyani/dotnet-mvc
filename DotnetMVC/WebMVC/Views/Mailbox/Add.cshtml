@@ -1,0 +1,63 @@
+@model MailboxViewModel
+@{
+    ViewData["Title"] = "Mailbox View Data";
+}
+
+<h2>Form Add Mailbox</h2>
+<form asp-action="Save" method="post">
+     <div class="form-group">
+        <label asp-for="Id">Id</label>
+        <input asp-for="Id" class="form-control">
+    </div>
+
+    <div class="form-group">
+        <label asp-for="UserSending">user Sending</label>
+        <input asp-for="UserSending" class="form-control">
+    </div>
+
+    <div class="form-group">
+        <label asp-for="ToRecipients">toRecipients</label>
+        <input asp-for="ToRecipients" class="form-control">
+    </div>
+
+    <div class="form-group">
+        <label asp-for="CCRecipients">cCRecipients</label>
+        <input asp-for="CCRecipients" class="form-control">
+    </div>
+
+         <div class="form-group">
+        <label asp-for="Subject">subject</label>
+        <input asp-for="Subject" class="form-control">
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Body">Massage body</label>
+        <input asp-for="Body" class="form-control">
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Attachment">attachment</label>
+        <input asp-for="Attachment" class="form-control">
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Scheduled">scheduled</label>
+        <input asp-for="Scheduled" class="form-control">
+    </div>
+
+
+    <div class="form-group">
+        <label asp-for="StatusDone">Status Sendemail</label>
+        <select class="form-select" aria-label="Set StatusDone" id="StatusDone" name="StatusDone"> 
+            <option selected>Select status Here</option>
+            <option value="false">False</option>
+            <option value="true">True</option>
+        </select>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

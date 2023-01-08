@@ -1,0 +1,38 @@
+@model List<AbsensiViewModel>
+@{
+    ViewData["Title"] = "Absensi List";
+}
+
+<h2>Absensi List</h2>
+<a class="btn btn-sm btn-primary" asp-area="" asp-controller="Absensi" asp-action="Add">Create New Absensi</a>
+
+<table class="table table-responsive">
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>ID Employee</th>
+        <th>Clock In</th>
+        <th>Clock Out</th>
+        <th>Location</th>
+        <th>Description</th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach(var item in Model )
+    {
+        <tr>
+            <td>@item.Id</td>
+            <td>@item.EmployeeId</td>
+            <td>@item.AbsentStartDate</td>
+            <td>@item.AbsentEndDate</td>
+            <td>@item.Location</td>
+            <td>@item.Description</td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-warning">Edit</a>
+                <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-sm btn-success">View</a>
+                <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-danger">Delete</a>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>

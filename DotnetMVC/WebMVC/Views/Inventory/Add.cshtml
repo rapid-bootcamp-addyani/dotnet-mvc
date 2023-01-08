@@ -1,0 +1,43 @@
+@model InventoryViewModel
+@{
+    ViewData["Title"] = "Inventory View Data";
+}
+
+<h2>Form Add Inventory</h2>
+
+<form asp-action="Save" method="post">
+     <div class="form-group">
+        <label asp-for="Id">Inventory Id</label>
+        <input asp-for="Id" class="form-control">
+    </div>
+    <div class="form-group">
+        <label asp-for="Name">Name</label>
+        <input asp-for="Name" class="form-control">
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Specification">Specification</label>
+        <input asp-for="Specification" class="form-control">
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Quantity">Quantity</label>
+        <input asp-for="Quantity" class="form-control">
+    </div>
+
+    <div class="form-group">
+        <label asp-for="OnLoan">On Loan</label>
+        <input asp-for="OnLoan" class="form-control">
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Ready">Ready</label>
+        <input asp-for="Ready" class="form-control">
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

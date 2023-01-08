@@ -1,0 +1,38 @@
+@model List<EmployeeViewModel>
+@{
+    ViewData["Title"] = "Employee List";
+}
+
+<h2>Employee List</h2>
+<a class="btn btn-sm btn-primary" asp-area="" asp-controller="Employee" asp-action="Add">Create New Employee</a>
+
+<table class="table table-responsive">
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Phone</th>
+        <th>Address</th>
+        <th>Position</th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach(var item in Model )
+    {
+        <tr>
+            <td>@item.Id</td>
+            <td>@item.EmployeeName</td>
+            <td>@item.Email</td>
+            <td>@item.Phone</td>
+            <td>@item.Address</td>
+            <td>@item.Position</td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-warning">Edit</a>
+                <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-sm btn-success">View</a>
+                <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-danger">Delete</a>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>

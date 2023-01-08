@@ -1,0 +1,41 @@
+@model AbsensiViewModel
+
+@{
+    ViewData["Title"] = "Absensi Details";
+}
+
+<h2>Absensi Detail</h2>
+<table class="table tab-content">
+    <tbody>
+        <tr>
+            <th>ID</th>
+            <td>@Model.Id</td>
+        </tr>
+        <tr>
+            <th>ID Employee</th>
+            <td>@Model.EmployeeId</td>
+        </tr>
+        <tr>
+            <th>Clock In</th>
+            <td>@Model.AbsentStartDate</td>
+        </tr>
+    
+        <tr>
+            <th>Clock Out</th>
+            <td>@Model.AbsentEndDate</td>
+        </tr>
+
+        <tr>
+            <th>Location</th>
+            <td>@Model.Location</td>
+        </tr>
+
+        <tr>
+            <th>Description</th>
+            <td>@Model.Description</td>
+        </tr>
+
+    </tbody>
+</table>
+
+<a class="btn btn-sm btn-primary" asp-area="" asp-controller="Absensi" asp-action="List">Back</a>

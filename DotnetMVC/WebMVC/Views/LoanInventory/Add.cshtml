@@ -1,0 +1,44 @@
+@model LoanInventoryViewModel
+@{
+    ViewData["Title"] = "LoanInventory View Data";
+}
+
+<h2>Form Add Loan Inventory</h2>
+
+<form asp-action="Save" method="post">
+    <div class="form-group">
+        <label asp-for="Id">Loan Inventory Id</label>
+        <input asp-for="Id" class="form-control">
+    </div>
+    
+    <div class="form-group">
+        <label asp-for="NameUser">Name User For Loan</label>
+        <input asp-for="NameUser" class="form-control">
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Detail">Detail</label>
+        <input asp-for="Detail" class="form-control">
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Admin">Admin Pemberi Acc</label>
+        <input asp-for="Admin" class="form-control">
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Status">Status Peminjaman</label>
+        <select class="form-select" aria-label="Set Status" id="Status" name="Status"> 
+            <option selected>Select Status Here</option>
+            <option value="false">False</option>
+            <option value="true">True</option>
+        </select>
+    </div>
+
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

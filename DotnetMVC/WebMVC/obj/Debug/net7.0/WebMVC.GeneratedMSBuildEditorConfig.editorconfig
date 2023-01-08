@@ -1,0 +1,173 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = WebMVC
+build_property.RootNamespace = WebMVC
+build_property.ProjectDir = D:\data\coding\bootcamp\rapid\dotnet\dotnet-mvc\DotnetMVC\WebMVC\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\data\coding\bootcamp\rapid\dotnet\dotnet-mvc\DotnetMVC\WebMVC
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/data/coding/bootcamp/rapid/dotnet/dotnet-mvc/DotnetMVC/WebMVC/Views/Absensi/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJzZW5zaVxBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/data/coding/bootcamp/rapid/dotnet/dotnet-mvc/DotnetMVC/WebMVC/Views/Absensi/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJzZW5zaVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/data/coding/bootcamp/rapid/dotnet/dotnet-mvc/DotnetMVC/WebMVC/Views/Absensi/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJzZW5zaVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/data/coding/bootcamp/rapid/dotnet/dotnet-mvc/DotnetMVC/WebMVC/Views/Absensi/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJzZW5zaVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/data/coding/bootcamp/rapid/dotnet/dotnet-mvc/DotnetMVC/WebMVC/Views/Absensi/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJzZW5zaVxMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/data/coding/bootcamp/rapid/dotnet/dotnet-mvc/DotnetMVC/WebMVC/Views/Employee/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcQWRkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/data/coding/bootcamp/rapid/dotnet/dotnet-mvc/DotnetMVC/WebMVC/Views/Employee/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/data/coding/bootcamp/rapid/dotnet/dotnet-mvc/DotnetMVC/WebMVC/Views/Employee/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/data/coding/bootcamp/rapid/dotnet/dotnet-mvc/DotnetMVC/WebMVC/Views/Employee/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/data/coding/bootcamp/rapid/dotnet/dotnet-mvc/DotnetMVC/WebMVC/Views/Employee/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/data/coding/bootcamp/rapid/dotnet/dotnet-mvc/DotnetMVC/WebMVC/Views/Home/AboutUs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dFVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/data/coding/bootcamp/rapid/dotnet/dotnet-mvc/DotnetMVC/WebMVC/Views/Home/ContactUs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0VXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/data/coding/bootcamp/rapid/dotnet/dotnet-mvc/DotnetMVC/WebMVC/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/data/coding/bootcamp/rapid/dotnet/dotnet-mvc/DotnetMVC/WebMVC/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/data/coding/bootcamp/rapid/dotnet/dotnet-mvc/DotnetMVC/WebMVC/Views/Inventory/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52ZW50b3J5XEFkZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/data/coding/bootcamp/rapid/dotnet/dotnet-mvc/DotnetMVC/WebMVC/Views/Inventory/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52ZW50b3J5XERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/data/coding/bootcamp/rapid/dotnet/dotnet-mvc/DotnetMVC/WebMVC/Views/Inventory/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52ZW50b3J5XEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/data/coding/bootcamp/rapid/dotnet/dotnet-mvc/DotnetMVC/WebMVC/Views/Inventory/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52ZW50b3J5XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/data/coding/bootcamp/rapid/dotnet/dotnet-mvc/DotnetMVC/WebMVC/Views/Inventory/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52ZW50b3J5XExpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/data/coding/bootcamp/rapid/dotnet/dotnet-mvc/DotnetMVC/WebMVC/Views/LoanInventory/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9hbkludmVudG9yeVxBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/data/coding/bootcamp/rapid/dotnet/dotnet-mvc/DotnetMVC/WebMVC/Views/LoanInventory/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9hbkludmVudG9yeVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/data/coding/bootcamp/rapid/dotnet/dotnet-mvc/DotnetMVC/WebMVC/Views/LoanInventory/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9hbkludmVudG9yeVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/data/coding/bootcamp/rapid/dotnet/dotnet-mvc/DotnetMVC/WebMVC/Views/LoanInventory/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9hbkludmVudG9yeVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/data/coding/bootcamp/rapid/dotnet/dotnet-mvc/DotnetMVC/WebMVC/Views/LoanInventory/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9hbkludmVudG9yeVxMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/data/coding/bootcamp/rapid/dotnet/dotnet-mvc/DotnetMVC/WebMVC/Views/Mailbox/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpbGJveFxBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/data/coding/bootcamp/rapid/dotnet/dotnet-mvc/DotnetMVC/WebMVC/Views/Mailbox/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpbGJveFxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/data/coding/bootcamp/rapid/dotnet/dotnet-mvc/DotnetMVC/WebMVC/Views/Mailbox/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpbGJveFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/data/coding/bootcamp/rapid/dotnet/dotnet-mvc/DotnetMVC/WebMVC/Views/Mailbox/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpbGJveFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/data/coding/bootcamp/rapid/dotnet/dotnet-mvc/DotnetMVC/WebMVC/Views/Mailbox/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpbGJveFxMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/data/coding/bootcamp/rapid/dotnet/dotnet-mvc/DotnetMVC/WebMVC/Views/Product/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/data/coding/bootcamp/rapid/dotnet/dotnet-mvc/DotnetMVC/WebMVC/Views/Product/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/data/coding/bootcamp/rapid/dotnet/dotnet-mvc/DotnetMVC/WebMVC/Views/Product/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/data/coding/bootcamp/rapid/dotnet/dotnet-mvc/DotnetMVC/WebMVC/Views/Product/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/data/coding/bootcamp/rapid/dotnet/dotnet-mvc/DotnetMVC/WebMVC/Views/Product/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/data/coding/bootcamp/rapid/dotnet/dotnet-mvc/DotnetMVC/WebMVC/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/data/coding/bootcamp/rapid/dotnet/dotnet-mvc/DotnetMVC/WebMVC/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/data/coding/bootcamp/rapid/dotnet/dotnet-mvc/DotnetMVC/WebMVC/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/data/coding/bootcamp/rapid/dotnet/dotnet-mvc/DotnetMVC/WebMVC/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/data/coding/bootcamp/rapid/dotnet/dotnet-mvc/DotnetMVC/WebMVC/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-giswp39xn8
